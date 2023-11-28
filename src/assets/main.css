@@ -3,9 +3,11 @@
 
 ul {
   list-style: none;
-  li{
-    justify-content: center;
-  }
+ 
+}
+
+ul li  li{
+  justify-content: center;
 }
 
 #app {
