@@ -79,7 +79,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <div class="w-2/3">
         <h2 class="justify-center">Advanced Skills and Drills</h2>
         <ul>
-          <li>1st item</li>
+          <li></li>
           <li></li>
           <li></li>
           <li></li>
