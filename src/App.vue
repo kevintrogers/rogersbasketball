@@ -14,7 +14,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <!-- <router-view /> -->
       <div class=" justify-center">
         <h2 class="text-h2">Fundamental Skills</h2>
-        <ul class="items-stretch">
+        <ul class="videolist ga-3">
 <!--   
           <li class="">
             <v-card :variant="elevated">
@@ -33,121 +33,43 @@ import HelloWorld from './components/HelloWorld.vue'
               
             </v-card>
           </li> -->
-          <li><iframe width="560" height="315" src="https://www.youtube.com/embed/UGT7C7DdCYo?si=kkgYnSR1jqLrFL3w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <figcaption class="text-high-emphasis">Quick video on the fundamentals of having a consistent, accurate jumpshot with Klay Thompson from the Golden State Warriors</figcaption>
-          </li>
-          <li class="text-high-emphasis"><iframe width="560" height="315" src="https://www.youtube.com/embed/fzySl4Vqfwk?si=LYyl3s7Qk9LzSK0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <figcaption>A Breakdown of how to do a crossover dribbble, but he expains how you should be dribbling in genral to maintain control over the ball.</figcaption>
-        </li>
-          <li class="text-high-emphasis"><iframe width="560" height="315" src="https://www.youtube.com/embed/Cvl980x11Jk?si=K-O_zWF_HlQObAGA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <figcaption>How to post up. A basic offensive skill for Power Forwards and Centers.</figcaption>
-        </li>
-         <li class="text-high-emphasis"><iframe width="560" height="315" src="https://www.youtube.com/embed/4tdZeJcyXf0?si=qcqyPJskHF1_NBY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          <figcaption>The Drop Step is a simple, yet effective way for post players to score after posting up.</figcaption>
-        </li>
+          <v-card ><iframe src="https://www.youtube.com/embed/UGT7C7DdCYo?si=kkgYnSR1jqLrFL3w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; c v-cardpboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <v-card-text >Quick video on the fundamentals of having an accurate jumpshot.</v-card-text>
+          </v-card>
+          <v-card class="text-high-emphasis"><iframe src="https://www.youtube.com/embed/fzySl4Vqfwk?si=LYyl3s7Qk9LzSK0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; c v-cardpboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <v-card-text>How to do a crossover dribble but great tips for ball handling in general.</v-card-text>
+        </v-card>
+          <v-card class="text-high-emphasis"><iframe src="https://www.youtube.com/embed/Cvl980x11Jk?si=K-O_zWF_HlQObAGA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; c v-cardpboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <v-card-text>How to post up. A basic offensive skill for Power Forwards and Centers.</v-card-text>
+        </v-card>
+         <v-card class="text-high-emphasis"><iframe src="https://www.youtube.com/embed/4tdZeJcyXf0?si=qcqyPJskHF1_NBY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; c v-cardpboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <v-card-text>The Drop Step is a simple, yet effective way for post players to score after posting up.</v-card-text>
+        </v-card>
         </ul> 
       </div> 
-      <div class="w-2/3">
+      <div class="">
         <h2 class="justify-center text-h2">Strategy</h2>
         <ul>
-            <li>
-          <li class="">
-            <v-card :variant="elevated">
-              <v-card-headline></v-card-headline>
-              <v-card-actions>
-      <v-btn
-        variant="text"
-        color="teal-accent-4"
-        @click="reveal = true"
-      >
-        Learn More
-      </v-btn>
-    </v-card-actions>
-              <v-card-item>
-                 </v-card-item>
-              
-            </v-card>
-          </li>
+
             <p class="text-high-emphasis">Click Play animation and it will show you a video.</p>
               <iframe allow="fullscreen" style="border:0" title="Play Creator App" width="800" height="500" src='https://www.thehoopsgeek.com/react-apps/PlayCreator/embed/?code=k1VpXpZcfS&showTitle=1&showVideo=1&showDescription=1&showPhaseDescriptions=1'></iframe>
-            </li>
-            <li></li>
-            <li></li>
-            <li></li>
+       
+            <v-card></v-card>
+            <v-card></v-card>
+            <v-card></v-card>
           </ul>
       </div> 
       <div class="w-2/3">
         <h2 class="justify-center">Advanced Skills and Drills</h2>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <v-card></v-card>
+            <v-card></v-card>
+            <v-card></v-card>
         </ul>
       </div>
     </div>
 </v-container>
 </template>
 <style scoped>
-header {
-  line-height: 1.5;
-  max-height: 100vh;
-}
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-nav {
-  width: 100%;
-  font-size: 12px;
-  text-align: center;
-  margin-top: 2rem;
-}
-
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
-}
-
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
-}
-
-nav a:first-of-type {
-  border: 0;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
-
-    padding: 1rem 0;
-    margin-top: 1rem;
-  }
-}
 </style>
