@@ -37,13 +37,13 @@ import HelloWorld from './components/HelloWorld.vue'
             <figcaption class="text-high-emphasis">Quick video on the fundamentals of having a consistent, accurate jumpshot with Klay Thompson from the Golden State Warriors</figcaption>
           </li>
           <li class="text-high-emphasis"><iframe width="560" height="315" src="https://www.youtube.com/embed/fzySl4Vqfwk?si=LYyl3s7Qk9LzSK0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <p>A Breakdown of how to do a crossover dribbble, but he expains how you should be dribbling in genral to maintain control over the ball.</p>
+            <figcaption>A Breakdown of how to do a crossover dribbble, but he expains how you should be dribbling in genral to maintain control over the ball.</figcaption>
         </li>
           <li class="text-high-emphasis"><iframe width="560" height="315" src="https://www.youtube.com/embed/Cvl980x11Jk?si=K-O_zWF_HlQObAGA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <p>How to post up. A basic offensive skill for Power Forwards and Centers.</p>
+            <figcaption>How to post up. A basic offensive skill for Power Forwards and Centers.</figcaption>
         </li>
          <li class="text-high-emphasis"><iframe width="560" height="315" src="https://www.youtube.com/embed/4tdZeJcyXf0?si=qcqyPJskHF1_NBY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-          <p>The Drop Step is a simple, yet effective way for post players to score after posting up.</p>
+          <figcaption>The Drop Step is a simple, yet effective way for post players to score after posting up.</figcaption>
         </li>
         </ul> 
       </div> 
