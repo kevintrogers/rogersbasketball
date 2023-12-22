@@ -7,7 +7,16 @@ import HelloWorld from './components/HelloWorld.vue'
 <template>
   <v-container>
   <h1 class="justify-center text-h1">Basketball Info</h1>
- 
+
+  <v-card class="pa-6">
+    <v-card-title>
+      How to use this site
+    </v-card-title>
+    <v-card-content>
+      The video cards are color-coded. The lightest shade of green is the most basic, getting more 
+      advanced as the background darkens.
+    </v-card-content>
+  </v-card>
 
     <div class="w-full">
       <!-- <AppMenu /> -->
@@ -48,10 +57,25 @@ import HelloWorld from './components/HelloWorld.vue'
         </ul> 
       </div> 
       <div class="">
-        <h2 class="justify-center text-h2">Strategy</h2>
+        <h2 class="justify-center text-h2">Dribble Drive Motion Offense</h2>
+
+        <v-card class="pa-6 mx-4">
+          <v-card-content >
+            <p>The motion offense teaches kids the fundamentals of basketball and gets the whole team involved which is why I like to use it.
+              There is an animation of the basic structure of the movement patterns below, but first a few rules to help guide the players.
+            </p>
+            <ol class="mx-8">
+              <li>Make the defense work.</li>
+              <li>An action after very pass (basket cut, ball screen, off-ball screen)</li>
+              <li>Be aggressive, but only take open shots.</li>
+              <li>Everybody is dangerous.</li>
+              <li>3-4 seconds with the ball and then pass or shoot</li>
+            </ol>
+          </v-card-content>
+        </v-card>
         <ul>
 
-            <p class="text-high-emphasis">Click Play animation and it will show you a video.</p>
+            <p class="text-high-emphasis">Click Play animation to see the Motion Offense in action.</p>
               <iframe allow="fullscreen" style="border:0" title="Play Creator App" width="800" height="500" src='https://www.thehoopsgeek.com/react-apps/PlayCreator/embed/?code=k1VpXpZcfS&showTitle=1&showVideo=1&showDescription=1&showPhaseDescriptions=1'></iframe>
   
           </ul>

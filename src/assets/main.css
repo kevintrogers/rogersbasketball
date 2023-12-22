@@ -25,6 +25,13 @@
 iframe {
   width:100%;
 }
+h2 {
+  margin-top: 1.65em;
+}
+ol li {
+  font-style: italic;
+  font-weight: 500;
+}
 ul li {
   border: solid 1px grey;
   padding:5px;
