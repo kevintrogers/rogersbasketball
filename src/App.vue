@@ -17,6 +17,7 @@ import HelloWorld from './components/HelloWorld.vue'
       advanced as the background darkens.
     </v-card-content>
   </v-card>
+  
 
     <div class="w-full">
       <!-- <AppMenu /> -->
