@@ -54,6 +54,12 @@ import HelloWorld from './components/HelloWorld.vue'
          <v-card color="green-accent-1" class="text-high-emphasis"><iframe src="https://www.youtube.com/embed/4tdZeJcyXf0?si=qcqyPJskHF1_NBY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; c v-cardpboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           <v-card-text>The Drop Step is a simple, yet effective way for post players to score after posting up.</v-card-text>
         </v-card>
+        <v-card color="green-accent-1"><iframe src="https://www.youtube.com/embed/h53iVteBwJ4?si=m7GH_E5AIZc80STL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <v-card-text>Add arc to your jumpshot for greater accuracy</v-card-text>
+      </v-card>
+      <v-card color="green-accent-3"><iframe src="https://www.youtube.com/embed/hkfQXij2kp4?si=OsRhoeOlAtToxzJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <v-card-text>How to dribble between your legs in 5 simple steps.</v-card-text>
+    </v-card>
         </ul> 
       </div> 
       <div class="">
@@ -92,6 +98,8 @@ import HelloWorld from './components/HelloWorld.vue'
             <v-card-text>Learn what a kick pass is and when you should use it</v-card-text></v-card>
             <v-card color="green-accent-2"><iframe  src="https://www.youtube.com/embed/HDHFyQ0DwS4?si=bXB5jiTzujGBbRYL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <v-card-text>Learn about the pullback dribble and add it your bag.</v-card-text></v-card>
+            <v-card color="green-accent-2"><iframe  src="https://www.youtube.com/embed/CTnSABsyzIE?si=vuLoa-WoGpRGB_RR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <v-card-text>Learn the proper technique for setting a screen</v-card-text></v-card>
         </ul>
       </div>
     </div>
