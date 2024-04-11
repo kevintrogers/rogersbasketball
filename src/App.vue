@@ -60,11 +60,13 @@ import HelloWorld from './components/HelloWorld.vue'
       </v-card>
       <v-card color="green-accent-2"><iframe  src="https://www.youtube.com/embed/CTnSABsyzIE?si=vuLoa-WoGpRGB_RR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <v-card-text>Learn the proper technique for setting a screen</v-card-text></v-card>
+        <v-card color="green-accent-2"><iframe  src="https://youtube.com/embed/D09Hx2HYFlM?si=5ttNDOm0-VLf76Cg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <v-card-text>Learn the proper technique for bpxing out for a rebound</v-card-text></v-card>
 
         </ul> 
       </div> 
       <div class="">
-        <h2 class="justify-center text-h2">Dribble Drive Motion Offense</h2>
+        <h2 class="justify-center text-h2">Five Out Motion Offense</h2>
 
         <v-card class="pa-6 mx-4">
           <v-card-content >
@@ -76,14 +78,15 @@ import HelloWorld from './components/HelloWorld.vue'
               <li>An action after very pass (basket cut, ball screen, off-ball screen)</li>
               <li>Be aggressive, but only take open shots.</li>
               <li>Everybody is dangerous.</li>
-              <li>3-4 seconds with the ball and then pass or shoot</li>
+              <li>5-6 seconds with the ball and then pass or shoot</li>
             </ol>
           </v-card-content>
         </v-card>
         <ul>
-
+          <iframe  src="https://www.youtube.com/embed/qHpmAJMx7XM?si=x0ZwtVIFAeh3q-tH" title="YouTube video player" frameborder="0" allow="fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<!-- 
             <p class="text-high-emphasis">Click Play animation to see the Motion Offense in action.</p>
-              <iframe allow="fullscreen" style="border:0" title="Play Creator App" width="800" height="500" src='https://www.thehoopsgeek.com/react-apps/PlayCreator/embed/?code=k1VpXpZcfS&showTitle=1&showVideo=1&showDescription=1&showPhaseDescriptions=1'></iframe>
+              <iframe allow="fullscreen" style="border:0" title="Play Creator App" width="800" height="500" src='https://www.thehoopsgeek.com/react-apps/PlayCreator/embed/?code=k1VpXpZcfS&showTitle=1&showVideo=1&showDescription=1&showPhaseDescriptions=1'></iframe> -->
   
           </ul>
       </div> 
